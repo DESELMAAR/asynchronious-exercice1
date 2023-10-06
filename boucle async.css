@@ -1,0 +1,31 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body{
+  background:linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)), url("pexels-pixabay-36717\ \(2\).jpg") center no-repeat;
+  background-size: cover;
+  max-width: 1440px;
+  height: 110vh;
+  padding: 2em;
+  display: flex;
+  place-items: center;
+  justify-content: center;
+}
+
+.main{
+  width: 300px;
+  display: grid;
+  grid-template-columns: repeat(4,1fr);
+  gap: 0.2em;
+}
+h3{
+  height: 40px;
+}
+
+.h3{ 
+   background-color: rgba(0, 255, 255,0.7);
+   backdrop-filter: blur(10px);
+}
+
